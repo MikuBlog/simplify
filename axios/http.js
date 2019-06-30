@@ -1,4 +1,4 @@
-	import Vue from 'vue'
+
 	import axios from 'axios'
 	import { Loading, Message } from 'element-ui'
 	import 'element-ui/lib/theme-chalk/index.css';
