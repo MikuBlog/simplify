@@ -60,7 +60,10 @@
 	
 	// 给所有的实例配置跨域携带cookie
 	axios.defaults.withCredentials = true
-	
+        
+        // 配置请求时限
+	axios.defaults.timeout = 3000 
+
 	// 给所有的实例配置同一的返回数据格式
 	axios.defaults.transformResponse = [(data) => {
 		try {
