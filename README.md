@@ -19,6 +19,8 @@
 * `UEDITOR_HOME_URL`统一为`/ueditor/`
 * `serverUrl`为请求的静态文件服务器接口
 
+> 请求地址：[](http://upload.xuanzai.top:8080/gbk-php/php/controller.php)
+
 <br/>
 
 ## mock服务器
