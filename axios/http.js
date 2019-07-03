@@ -74,7 +74,7 @@
 	}]
 	
 	// 发送数据格式为键值对
-	const myAxios_1 = axios.create({
+	const http_normal = axios.create({
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
 		},
@@ -88,7 +88,7 @@
 	})
 	
 	// 发送数据格式为JSON格式
-	const myAxios_2 = axios.create({
+	const http_json = axios.create({
 		headers: {
 			'Content-Type': 'application/json'
 		},
@@ -98,7 +98,7 @@
 	})
 	
 	// 发送数据格式为文件类型
-	const myAxios_3 = axios.create({
+	const http_file = axios.create({
 		headers: {
 			'Content-Type': 'multipart/form-data'
 		},
@@ -112,15 +112,15 @@
 	})
 	
 	// 添加拦截器
-	addInterceptors(myAxios_1)
+	addInterceptors(http_normal)
 	
-	addInterceptors(myAxios_2)
+	addInterceptors(http_json)
 	
-	addInterceptors(myAxios_3)
+	addInterceptors(http_file)
 	
 	export default {
-		myAxios_1,
-		myAxios_2,
-		myAxios_3
+		http_normal,
+		http_json,
+		http_file
 	}
 
