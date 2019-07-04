@@ -19,7 +19,17 @@
 * `UEDITOR_HOME_URL`统一为`/ueditor/`
 * `serverUrl`为请求的静态文件服务器接口
 
-请求地址：http://upload.xuanzai.top:8080/gbk-php/php/controller.php
+- 使用`vue-ueditor-wrap`进行封装
+
+地址：https://github.com/HaoChuan9421/vue-ueditor-wrap
+
+- demo
+
+地址：http://editor.xuanzai.top/
+
+- 静态服务器接口
+
+地址：http://upload.xuanzai.top:8080/gbk-php/php/controller.php
 
 <img src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/ueditor/QQ%E5%9B%BE%E7%89%8720190704175121.png">
 
