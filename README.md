@@ -37,7 +37,7 @@
 
 ## mock服务器
 
-- 使用`Doclever`提供的`mock`服务器
+使用`Doclever`提供的`mock`服务器
 
 > Mock Server地址：http://www.doclever.cn:8090/mock/5d14a4c24a9da91cd64cbe26
 > Mock Js文件：net.js（和内网测试是同一个文件，需要安装node环境，安装包点击下载：window  mac）
