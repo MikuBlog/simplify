@@ -23,13 +23,13 @@
 
 地址：https://github.com/HaoChuan9421/vue-ueditor-wrap
 
-- demo
-
-地址：http://editor.xuanzai.top/
-
 - 静态服务器接口
 
 地址：http://upload.xuanzai.top:8080/gbk-php/php/controller.php
+
+- demo
+
+地址：http://editor.xuanzai.top/
 
 <img src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/ueditor/QQ%E5%9B%BE%E7%89%8720190704175121.png">
 
