@@ -6,7 +6,7 @@
 
 <br/>
 
-## 富文本编辑器UEditor
+## 富文本编辑器UEditor（现代化）
 
 - 使用`php`作为静态文件服务器配置语言
 * 先搭建`LAMP`服务器（apache + php + linux）
@@ -19,13 +19,25 @@
 * `UEDITOR_HOME_URL`统一为`/ueditor/`
 * `serverUrl`为请求的静态文件服务器接口
 
-请求地址：http://upload.xuanzai.top:8080/gbk-php/php/controller.php
+- 使用`vue-ueditor-wrap`进行封装
+
+地址：https://github.com/HaoChuan9421/vue-ueditor-wrap
+
+- 静态服务器接口
+
+地址：http://upload.xuanzai.top:8080/gbk-php/php/controller.php
+
+- demo
+
+地址：http://editor.xuanzai.top/
+
+<img src="https://mikuimg.oss-cn-shenzhen.aliyuncs.com/ueditor/QQ%E5%9B%BE%E7%89%8720190704175121.png">
 
 <br/>
 
 ## mock服务器
 
-- 使用`Doclever`提供的`mock`服务器
+使用`Doclever`提供的`mock`服务器
 
 > Mock Server地址：http://www.doclever.cn:8090/mock/5d14a4c24a9da91cd64cbe26
 > Mock Js文件：net.js（和内网测试是同一个文件，需要安装node环境，安装包点击下载：window  mac）
