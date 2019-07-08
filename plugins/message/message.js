@@ -1,6 +1,10 @@
 import { Message } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css';
 
+/**
+ * 提示
+ * @param {String} msg 
+ */
 const successMsg = (msg) => {
     Message({
         message: msg,
