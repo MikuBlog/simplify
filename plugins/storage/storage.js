@@ -1,5 +1,5 @@
 /**
- * 保存会话数据
+ * @description 保存会话数据
  * @param {String} key 
  * @param {String | Object | Number | Boolean} data 
  */
@@ -8,7 +8,7 @@ function setMemorySes(key, data) {
 }
 
 /**
- * 获取会话数据
+ * @description 获取会话数据
  * @param {String} key 
  * @returns {String | Object | Number | Boolean}
  */
@@ -17,7 +17,7 @@ function getMemorySes(key) {
 }
 
 /**
- * 长久保存数据
+ * @description 长久保存数据
  * @param {String} key 
  * @param {String | Object | Number | Boolean} data 
  */
@@ -26,7 +26,7 @@ function setMemoryPmt(key, data) {
 }
 
 /**
- * 获取长久数据
+ * @description 获取长久数据
  * @param {String} key 
  * @returns {String | Object | Number | Boolean}
  */

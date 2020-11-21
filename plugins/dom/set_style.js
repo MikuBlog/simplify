@@ -1,5 +1,5 @@
 /**
- * 为DOM元素设置样式
+ * @description 为DOM元素设置样式
  * @param {DOM Object} el 
  * @param {String} ruleName CSS属性名
  * @param {String} value CSS属性值

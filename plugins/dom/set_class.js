@@ -1,5 +1,5 @@
 /**
- * 添加类、移除类
+ * @description 添加类、移除类
  * @param {DOM Object} element 
  * @param {String} name 
  */

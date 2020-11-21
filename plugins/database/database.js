@@ -1,7 +1,7 @@
 // 保存数据库实例
 let db
 /**
- * 创建表格
+ * @description 创建表格
  * @param {String} tableName 
  * @param {Object} options 
  */
@@ -13,7 +13,7 @@ function createTable(tableName, options) {
 }
 
 /**
- * 插入数据
+ * @description 插入数据
  * @param {String} tableName 
  * @param {Object} data 
  * @returns {Promise}
@@ -33,7 +33,7 @@ function insert(tableName, data) {
 }
 
 /**
- * 查找数据
+ * @description 查找数据
  * @param {String} tableName 
  * @param {Number} id 
  * @returns {Promise}
@@ -55,7 +55,7 @@ function find(tableName, id) {
 }
 
 /**
- * 更新数据
+ * @description 更新数据
  * @param {String} tableName 表名
  * @param {Number} id 表id
  * @param {Object} data 更新的数据
@@ -78,7 +78,7 @@ function update(tableName, id, data) {
 }
 
 /**
- * 更新数据
+ * @description 更新数据
  * @param {String} databaseName 数据库名称
  */
 function connectDatabase(databaseName) {

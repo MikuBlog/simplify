@@ -2,10 +2,10 @@
 	import { Loading, Message } from 'element-ui'
 	import 'element-ui/lib/theme-chalk/index.css';
 
-	/*
-	*	通过状态码返回对应的提示
-	*	@param {Integer} result 状态码
-	*/
+	/**
+	 * @description 通过状态码返回对应的提示 
+	 * @param {Integer} result 状态码
+	 */
 	function justifyStatus(result, additional) {
 		switch(result) {
 			case 404: Message({
@@ -37,10 +37,10 @@
 		}
 	}
 	
-	/*
-	*	添加拦截器函数
-	*	@param {Object} obj axios实例对象
-	*/
+	/**
+	 * @description 通过状态码返回对应的提示 
+	 * @param {Object} obj axios实例对象
+	 */
 	function addInterceptors(obj) {
 		obj.interceptors.request
 			.use(config => {

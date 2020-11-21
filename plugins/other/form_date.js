@@ -1,5 +1,5 @@
 /**
- * 日期格式化
+ * @description 日期格式化
  * @param {Date | String} dateTime 要格式化的日期
  * @param {Boolean} isAccurate 是否返回准确时间（时、分、秒）
  */

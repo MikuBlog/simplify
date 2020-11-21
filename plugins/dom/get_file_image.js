@@ -1,5 +1,5 @@
 /**
- * 选择图片文件并返回图片url
+ * @description 选择图片文件并返回图片url
  * @param {Number} limit 限制文件大小
  * @returns {Promise}
  */

@@ -1,5 +1,5 @@
 /**
- * 调用即可全屏
+ * @description 调用即可全屏
  */
 function requestFullScreen() {
     const element = document.documentElement
@@ -19,7 +19,7 @@ function requestFullScreen() {
 }
 
 /**
- * 调用即可取消全屏
+ * @description 调用即可取消全屏
  */
 function cancelFullScreen() {
     if (document.cancelFullScreen) {
